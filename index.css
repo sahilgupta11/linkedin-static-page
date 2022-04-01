@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 237, 237);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: white;
+    
+    
+    
+}
+
+
+.left-container img{
+    width: 3vw;
+    height: 5vh;
+}
+    
+
+.left-container{
+    display: flex;
+    margin-left: 3vw;
+    align-items: center;
+    background-color: white;
+   
+}
+
+.right-container{
+    display: flex;
+    
+    background-color: white;
+}
+.search{
+   
+    margin-left: 1vw;
+    
+}
+.search i{
+    background-color: rgb(245,237, 237);
+}
+
+.search > input{
+    outline: none;
+   border: none;
+   background: none;
+   width: 20vw;
+   height: 5vh;
+
+
+}
+
+.right-header{
+    
+   display: flex;
+   flex-direction: column;
+    background-color: white;
+    align-items: center !important;
+    margin-right: 1vw;
+  
+}
+.right-header h3{
+    background-color: white;
+}
+i{
+    background-color: white;
+}
+.right-container p{
+    background-color: white;
+    margin-right: 1vw;
+    
+}
+.right-container {
+    color: rgb(88, 88, 88);
+    cursor: pointer;
+    
+    
+}
+
+.right-header:hover{
+    color: black;
+  
+}
+
+.right-container p:hover{
+    color: black;
+    font-weight: bold;
+   
+}
+
+.contain{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.box{
+    background-color: rgb(212, 211, 211);
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 8px;
+    padding: 20px;
+   
+}
+
+.box2>input{
+    width: 85%;
+    height: 8vh;
+    border-radius: 15px;
+    margin-left: 2px;
+    padding: 2px;
+}
+
+.box2>img{
+ align-items: center;
+
+}
+
+.box2{
+    max-height: 250px !important;
+}
+
+.new{
+    margin-top: 8px;
+    background-color: rgb(212, 211, 211);
+}
+
+.new>a{
+   
+    color: rgb(34, 34, 36);
+    font-size: large;
+    text-decoration: none;
+    background-color: rgb(212, 211, 211);
+}
+
+.new i{
+    margin-right: 1vw;
+    margin-left: 1vw;
+    background-color: rgb(212, 211, 211);
+}
+
+.box3 >h4{
+    background-color: rgb(212, 211, 211) !important;
+}
+
+ul>li{
+    background-color: rgb(212, 211, 211);
+}
+
+.box4{
+    height: 50vh;
+    margin-top: 20px;
+}
+
+.img1{
+    width: 3em;
+    
+}
+
+.box1, h5, p, h6, img{
+    justify-items: center;
+    background-color: rgb(212, 211, 211);
+}
+
+.img2{
+    width: 4.5vw;
+    height: 7.5vh;
+}
+
+.box4 h4{
+    background-color: rgb(212, 211, 211);
+}
+
+.box4 a{
+    background-color: rgb(212, 211, 211);
+}
+.box4 i{
+    background-color: rgb(212, 211, 211);
+}
+.box5{
+    display: flex;
+    margin-top: 15px !important;
+   
+}
+
+.box5 p{
+    background-color: rgb(212, 211, 211);
+}
+
+
+
+.below>h3{
+    background-color: rgb(212, 211, 211);
+}
+.below{
+    margin-left: 5px;
+}
+
+.img3{
+    width: 35vw;
+    height: 75vh;
+    margin-top: 10px;
+    background-color: rgb(212, 211, 211);
+}
+
+#box{
+    margin-top: -40px;
+}
+
+.box-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.box6{
+    margin-top: 15px;
+}
+
+.box6>h3{
+    background-color: rgb(212, 211, 211);
+}
+
+.img0{
+    width: 2vw;
+    height: 4vh;
+}
